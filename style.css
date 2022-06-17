@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw; 
+
+}
+
+.grid {
+    display: flex;
+    background-color: green;
+    margin: 2px;
+    flex-grow: 1;
+}
